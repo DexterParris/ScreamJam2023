@@ -1958,3 +1958,4 @@ LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
 [2023.10.17-17.58.35:133][343]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{c0ae8dfc-8d93-463f-8cb7-a86efc83495f}, Name=Realtek Digital Output (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=36.11
 [2023.10.17-17.58.35:133][343]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
 [2023.10.17-17.58.35:133][343]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.10.17-18.44.53:759][543]LogDerivedDataCache: C:/Users/Ben/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.110 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1250 files in 2057 folders with total size 84 MiB.
