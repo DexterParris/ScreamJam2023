@@ -1959,3 +1959,14 @@ LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
 [2023.10.17-17.58.35:133][343]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
 [2023.10.17-17.58.35:133][343]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
 [2023.10.17-18.44.53:759][543]LogDerivedDataCache: C:/Users/Ben/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.110 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1250 files in 2057 folders with total size 84 MiB.
+[2023.10.17-19.44.52:793][338]LogDerivedDataCache: C:/Users/Ben/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.144 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1250 files in 2057 folders with total size 84 MiB.
+[2023.10.17-20.22.04:385][ 32]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2023.10.17-20.22.04:717][ 32]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=23168
+[2023.10.17-20.22.05:052][ 33]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{c0ae8dfc-8d93-463f-8cb7-a86efc83495f}, Name=Realtek Digital Output (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=77.39
+[2023.10.17-20.22.05:052][ 33]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.10.17-20.22.05:054][ 33]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.10.17-20.22.23:263][ 74]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2023.10.17-21.22.00:435][ 74]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=23168
+[2023.10.17-21.22.01:426][ 75]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{c0ae8dfc-8d93-463f-8cb7-a86efc83495f}, Name=Realtek Digital Output (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=778.01
+[2023.10.17-21.22.01:426][ 75]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.10.17-21.22.01:432][ 75]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
