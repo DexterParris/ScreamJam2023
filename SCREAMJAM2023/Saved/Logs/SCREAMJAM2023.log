@@ -1132,3 +1132,824 @@ LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
 [2023.10.17-16.43.03:585][  2]LogD3D12RHI: Cannot end block when stack is empty
 [2023.10.17-16.44.34:859][761]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
 [2023.10.17-16.44.52:786][ 82]LogDerivedDataCache: C:/Users/Ben/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.138 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1221 files in 2011 folders with total size 79 MiB.
+[2023.10.17-16.49.43:781][378]LogViewport: Scene viewport resized to 512x580, mode Windowed.
+[2023.10.17-16.49.44:415][378]LogViewport: Scene viewport resized to 1170x900, mode Windowed.
+[2023.10.17-16.49.51:352][926]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.17-16.49.51:360][926]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.10.17-16.49.51:360][926]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2023.10.17-16.49.51:365][926]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 4 ms
+[2023.10.17-16.49.51:366][926]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.17-16.49.51:366][926]PIE: New page: PIE session: FirstPersonMap (17 Oct 2023, 18:49:51)
+[2023.10.17-16.49.51:366][926]LogPlayLevel: Display: Creating online subsystem for client :Context_1
+[2023.10.17-16.49.51:368][926]LogOnline: OSS: Created online subsystem instance for: :Context_1
+[2023.10.17-16.49.51:380][927]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.17-16.49.51:386][927]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006145s)
+[2023.10.17-16.49.51:386][927]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.006206s)
+[2023.10.17-16.49.51:391][927]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2023.10.17-16.49.51:392][927]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.17-16.49.51:392][927]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.17-16.49.51:392][927]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.10.17-16.49.51:393][927]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.17-16.49.51:393][927]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.17-16.49.51:393][927]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.17-16.49.51:393][927]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.10.17-16.49.51:394][927]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2023.10.17-16.49.51:394][927]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 128 ms)
+[2023.10.17-16.49.51:394][927]LogPlayLevel: PIE: World Init took: (0.002482s)
+[2023.10.17-16.49.51:394][927]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2023.10.17-16.49.51:394][927]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.17-16.49.51:394][927]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.17-16.49.51:394][927]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.17-16.49.51:394][927]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.17-16.49.51:394][927]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.10.17-16.49.51:394][927]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.17-16.49.51:394][927]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.10.17-16.49.51:394][927]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.17-16.49.51:395][927]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.17-16.49.51:395][927]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.17-16.49.51:395][927]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.17-16.49.51:397][927]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.17-16.49.51:439][927]LogAudioMixer: Display: Using Audio Hardware Device T24C300 (NVIDIA High Definition Audio)
+[2023.10.17-16.49.51:439][927]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.17-16.49.51:439][927]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.17-16.49.51:439][927]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.17-16.49.51:440][927]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2023.10.17-16.49.51:440][927]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2023.10.17-16.49.51:441][927]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2023.10.17-16.49.51:441][927]LogInit: FAudioDevice initialized with ID 2.
+[2023.10.17-16.49.51:441][927]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2023.10.17-16.49.51:441][927]LogAudio: Display: Audio Device (ID: 2) registered with world 'FirstPersonMap'.
+[2023.10.17-16.49.51:441][927]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2023.10.17-16.49.51:444][927]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.10.17-16.49.51:447][927]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2023.10.17-17.49.51
+[2023.10.17-16.49.51:447][927]LogWorld: Bringing up level for play took: 0.002812
+[2023.10.17-16.49.51:453][927]PIE: Server logged in
+[2023.10.17-16.49.51:454][927]PIE: Play in editor total start time 0.094 seconds.
+[2023.10.17-16.50.09:462][ 32]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.17-16.50.09:462][ 32]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.17-16.50.09:462][ 32]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.17-16.50.09:463][ 32]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.17-16.50.09:463][ 32]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2023.10.17-16.50.09:466][ 32]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.17-16.50.09:468][ 32]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.17-16.50.09:472][ 32]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.17-16.50.09:472][ 32]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2023.10.17-16.50.09:472][ 32]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.10.17-16.50.09:474][ 32]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.10.17-16.50.09:478][ 32]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.17-16.50.09:480][ 32]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2023.10.17-16.50.09:542][ 34]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2023.10.17-16.50.14:641][596]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.10.17-16.50.14:746][596]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.17-16.50.14:747][596]LogAssetEditorSubsystem: Opening Asset editor for World /Game/FirstPerson/Maps/Map_Basement.Map_Basement
+[2023.10.17-16.50.14:748][596]Cmd: MAP LOAD FILE="../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/FirstPerson/Maps/Map_Basement.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.10.17-16.50.14:748][596]LightingResults: New page: Lighting Build
+[2023.10.17-16.50.14:748][596]LoadErrors: New page: Loading map: Map_Basement.umap
+[2023.10.17-16.50.14:804][596]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.17-16.50.14:804][596]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.17-16.50.14:805][596]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2023.10.17-16.50.14:805][596]MapCheck: New page: Map Check
+[2023.10.17-16.50.14:805][596]LightingResults: New page: Lighting Build
+[2023.10.17-16.50.14:809][596]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.17-16.50.14:813][596]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2023.10.17-16.50.14:815][596]LogWorld: UWorld::CleanupWorld for Map_Basement, bSessionEnded=true, bCleanupResources=true
+[2023.10.17-16.50.14:815][596]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.17-16.50.14:820][596]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.10.17-16.50.14:824][596]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2023.10.17-16.50.14:828][596]LogAudio: Display: Audio Device (ID: 1) registered with world 'Map_Basement'.
+[2023.10.17-16.50.14:828][596]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.17-16.50.14:828][596]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.17-16.50.14:829][596]LogAIModule: Creating AISystem for world Map_Basement
+[2023.10.17-16.50.14:843][596]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.10.17-16.50.14:849][596]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.10.17-16.50.14:854][596]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.10.17-16.50.14:854][596]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.099ms to complete.
+[2023.10.17-16.50.15:738][665]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.17-16.50.15:868][666]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.17-16.51.01:568][826]LogStatusBar: Looking status bar with open content browser drawer...
+[2023.10.17-16.51.01:568][826]LogStatusBar: Using status bar: LevelEditor.StatusBar to dock content browser
+[2023.10.17-16.51.01:589][826]LogViewport: Scene viewport resized to 1170x584, mode Windowed.
+[2023.10.17-16.51.09:868][ 77]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Base'.'
+[2023.10.17-16.51.09:868][ 77]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Mask'.'
+[2023.10.17-16.51.13:949][216]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.10.17-16.51.13:962][216]LogContentBrowser: Creating deferred item: NewFolder
+[2023.10.17-16.51.13:974][217]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.10.17-16.51.15:652][265]LogContentBrowser: Attempting asset rename: NewFolder -> NewFolder
+[2023.10.17-16.51.15:652][265]LogContentBrowser: End creating deferred item NewFolder
+[2023.10.17-16.51.34:217][854]LogContentBrowser: Attempting asset rename: NewFolder -> PickingUpSystem
+[2023.10.17-16.51.53:307][360]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.10.17-16.51.53:319][360]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.10.17-16.51.53:323][360]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.10.17-16.51.53:344][362]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.10.17-16.52.19:965][622]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_key
+[2023.10.17-16.52.19:970][622]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.10.17-16.52.31:976][214]LogViewport: Scene viewport resized to 1526x584, mode Windowed.
+[2023.10.17-16.52.37:438][816]Cmd: ACTOR SELECT ALL
+[2023.10.17-16.52.38:638][944]Cmd: SELECT NONE
+[2023.10.17-16.52.40:333][106]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.10.17-16.52.57:444][876]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/PickingUpSystem/BP_key.BP_key
+[2023.10.17-16.52.57:444][876]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.17-16.52.57:444][876]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.17-16.52.57:451][876]LogSlate: Warning: The command 'BlueprintEditorSpawnNodes.AddActorRefAction->CommandInfo' has the same default chord as 'BlueprintEditorSpawnNodes.(Class=/Script/BlueprintGraph.K2Node_Knot Key=R Shift=false Ctrl=false Alt=false)' [R]
+[2023.10.17-16.52.58:369][876]LogViewport: Scene viewport resized to 552x501, mode Windowed.
+[2023.10.17-16.56.11:160][384]LogViewport: Scene viewport resized to 1078x875, mode Windowed.
+[2023.10.17-17.00.15:055][257]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.10.17-17.00.15:056][257]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/Map_Basement' took 0.016
+[2023.10.17-17.00.15:057][257]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PickingUpSystem/BP_key] ([2] browsable assets)...
+[2023.10.17-17.00.15:057][257]OBJ SavePackage: Finished generating thumbnails for package [/Game/PickingUpSystem/BP_key]
+[2023.10.17-17.00.15:064][257]LogPackageLocalizationCache: Processed 46 localized package path(s) for 1 prioritized culture(s) in 0.007138 seconds
+[2023.10.17-17.00.15:069][257]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/PickingUpSystem/BP_key_Auto1
+[2023.10.17-17.00.15:069][257]LogSavePackage: Moving '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Saved/BP_key_Auto155E97EFA4F248A22C71F3F9E1EE81F9E.tmp' to '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Saved/Autosaves/Game/PickingUpSystem/BP_key_Auto1.uasset'
+[2023.10.17-17.00.15:070][257]LogFileHelpers: Auto-saving content packages took 0.014
+[2023.10.17-17.01.19:340][664]BlueprintLog: New page: Compile BP_key
+[2023.10.17-17.01.19:365][664]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.10.17-17.01.19:924][699]LogViewport: Scene viewport resized to 552x501, mode Windowed.
+[2023.10.17-17.01.28:635][  9]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SpecularProfile_64.svg'. File could not be found
+[2023.10.17-17.01.30:288][113]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.10.17-17.01.30:304][113]LogContentBrowser: Creating deferred item: NewFolder
+[2023.10.17-17.01.30:317][114]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.10.17-17.01.32:367][277]LogContentBrowser: Attempting asset rename: NewFolder -> Models
+[2023.10.17-17.01.32:368][277]LogContentBrowser: End creating deferred item NewFolder
+[2023.10.17-17.01.42:979][582]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Ben/OneDrive - University of Brighton/GameJam/SpookJam2023/Key_02.fbx)
+[2023.10.17-17.01.42:989][582]LogFbx: Loading FBX Scene from C:/Users/Ben/OneDrive - University of Brighton/GameJam/SpookJam2023/Key_02.fbx
+[2023.10.17-17.01.42:994][582]LogFbx: FBX Scene Loaded Succesfully
+[2023.10.17-17.02.20:677][582]LogSlate: Window 'FBX Import Options' being destroyed
+[2023.10.17-17.02.20:933][582]LogEditorFactories: Display: JPEG imported and retained as JPEG in uasset.
+[2023.10.17-17.02.20:936][582]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2023.10.17-17.02.20:948][582]LogFbx: Display: Triangulating static mesh Key
+[2023.10.17-17.02.20:953][582]LogStaticMesh: Display: Building static mesh Key_02...
+[2023.10.17-17.02.20:964][582]LogStaticMesh: Built static mesh [0.01s] /Game/Models/Key_02.Key_02
+[2023.10.17-17.02.21:039][584]LogTexture: Display: Waiting for textures to be ready 0/1 (/Game/Models/Rust) ...
+[2023.10.17-17.02.21:088][584]LogTexture: Display: Building textures: /Game/Models/Rust.Rust (TFO_AutoDXT, 4032x3024 x1x1x1) (Required Memory Estimate: 837.273438 MB), EncodeSpeed: Fast
+[2023.10.17-17.02.21:794][610]LogShaderCompilers: Display: ================================================
+[2023.10.17-17.02.21:794][610]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.10.17-17.02.21:794][610]LogShaderCompilers: Display: Total job queries 4, among them cache hits 0 (0.00%)
+[2023.10.17-17.02.21:794][610]LogShaderCompilers: Display: Tracking 1 distinct input hashes that result in 1 distinct outputs (100.00%)
+[2023.10.17-17.02.21:794][610]LogShaderCompilers: Display: RAM used: 19.44 KiB of 1.60 GiB budget. Usage: 0.00%
+[2023.10.17-17.02.21:794][610]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.10.17-17.02.21:794][610]LogShaderCompilers: Display: Shaders Compiled: 1
+[2023.10.17-17.02.21:794][610]LogShaderCompilers: Display: Jobs assigned 4, completed 1 (25.00%)
+[2023.10.17-17.02.21:794][610]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.07 s
+[2023.10.17-17.02.21:794][610]LogShaderCompilers: Display: Job execution time: average 0.39 s, max 0.39 s
+[2023.10.17-17.02.21:794][610]LogShaderCompilers: Display: Job life time (pending + execution): average 0.46 s, max 0.46
+[2023.10.17-17.02.21:794][610]LogShaderCompilers: Display: Shader code size: average 31.809 KiB, min 31.809 KiB, max 31.809 KiB
+[2023.10.17-17.02.21:794][610]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.46 s
+[2023.10.17-17.02.21:794][610]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.10.17-17.02.21:794][610]LogShaderCompilers: Display: Average processing rate: 2.19 jobs/sec
+[2023.10.17-17.02.21:794][610]LogShaderCompilers: Display: Total thread time: 0.108 s
+[2023.10.17-17.02.21:794][610]LogShaderCompilers: Display: Total thread preprocess time: 0.028 s
+[2023.10.17-17.02.21:794][610]LogShaderCompilers: Display: Percentage time preprocessing: 25.88%
+[2023.10.17-17.02.21:794][610]LogShaderCompilers: Display: Effective parallelization: 0.24 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.10.17-17.02.21:794][610]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2023.10.17-17.02.21:794][610]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.11 sec, max 0.11 sec, min 0.11 sec)
+[2023.10.17-17.02.21:795][610]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2023.10.17-17.02.21:795][610]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 100.00% of total time (compiled    1 times, average 0.11 sec, max 0.11 sec, min 0.11 sec)
+[2023.10.17-17.02.21:795][610]LogShaderCompilers: Display: ================================================
+[2023.10.17-17.02.37:167][982]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.10.17-17.02.37:189][982]LogContentBrowser: Creating deferred item: NewFolder
+[2023.10.17-17.02.37:203][983]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.10.17-17.02.42:899][410]LogContentBrowser: Attempting asset rename: NewFolder -> Basement
+[2023.10.17-17.02.42:899][410]LogContentBrowser: End creating deferred item NewFolder
+[2023.10.17-17.02.46:598][649]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.10.17-17.02.46:621][649]LogContentBrowser: Creating deferred item: NewFolder
+[2023.10.17-17.02.46:648][651]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.10.17-17.02.47:883][746]LogContentBrowser: Attempting asset rename: NewFolder -> Key
+[2023.10.17-17.02.47:884][746]LogContentBrowser: End creating deferred item NewFolder
+[2023.10.17-17.02.54:316][163]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.17-17.02.54:389][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Basement/Key_02" FILE="../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/Models/Basement/Key_02.uasset" SILENT=true
+[2023.10.17-17.02.54:395][163]LogSavePackage: Moving output files for package: /Game/Models/Basement/Key_02
+[2023.10.17-17.02.54:395][163]LogSavePackage: Moving '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Saved/Key_02462744064411A9218AF3F085C24536C9.tmp' to '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/Models/Basement/Key_02.uasset'
+[2023.10.17-17.02.55:401][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Basement/Material_001" FILE="../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/Models/Basement/Material_001.uasset" SILENT=true
+[2023.10.17-17.02.55:407][163]LogSavePackage: Moving output files for package: /Game/Models/Basement/Material_001
+[2023.10.17-17.02.55:407][163]LogSavePackage: Moving '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Saved/Material_001339768FC4827491BB34D1AA73A911091.tmp' to '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/Models/Basement/Material_001.uasset'
+[2023.10.17-17.02.55:411][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Basement/Rust" FILE="../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/Models/Basement/Rust.uasset" SILENT=true
+[2023.10.17-17.02.55:415][163]LogSavePackage: Moving output files for package: /Game/Models/Basement/Rust
+[2023.10.17-17.02.55:415][163]LogSavePackage: Moving '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Saved/Rust63EB715C447888881DF134B527A7BFD6.tmp' to '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/Models/Basement/Rust.uasset'
+[2023.10.17-17.02.55:423][163]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.10 sec
+[2023.10.17-17.02.55:463][163]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2023.10.17-17.02.55:478][163]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2023.10.17-17.02.55:493][163]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.10.17-17.02.55:507][163]AssetCheck: New page: Asset Save: multiple assets
+[2023.10.17-17.02.55:507][163]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/Basement/Key_02.Key_02
+[2023.10.17-17.02.55:507][163]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Models/Basement/Material_001.Material_001
+[2023.10.17-17.02.55:507][163]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Models/Basement/Rust.Rust
+[2023.10.17-17.03.00:783][497]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.17-17.03.00:848][497]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Basement/Key/Key_02" FILE="../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/Models/Basement/Key/Key_02.uasset" SILENT=true
+[2023.10.17-17.03.00:852][497]LogSavePackage: Moving output files for package: /Game/Models/Basement/Key/Key_02
+[2023.10.17-17.03.00:852][497]LogSavePackage: Moving '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Saved/Key_023A37F7114651AF6732FE51855EC940A0.tmp' to '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/Models/Basement/Key/Key_02.uasset'
+[2023.10.17-17.03.00:856][497]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Basement/Key/Material_001" FILE="../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/Models/Basement/Key/Material_001.uasset" SILENT=true
+[2023.10.17-17.03.00:860][497]LogSavePackage: Moving output files for package: /Game/Models/Basement/Key/Material_001
+[2023.10.17-17.03.00:860][497]LogSavePackage: Moving '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Saved/Material_001982E79BB497361D0185F1B8A0C9B9141.tmp' to '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/Models/Basement/Key/Material_001.uasset'
+[2023.10.17-17.03.00:861][497]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Basement/Key/Rust" FILE="../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/Models/Basement/Key/Rust.uasset" SILENT=true
+[2023.10.17-17.03.00:865][497]LogSavePackage: Moving output files for package: /Game/Models/Basement/Key/Rust
+[2023.10.17-17.03.00:865][497]LogSavePackage: Moving '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Saved/RustF6BE37494151D3C7498F6091902D017C.tmp' to '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/Models/Basement/Key/Rust.uasset'
+[2023.10.17-17.03.00:879][497]LogFileHelpers: InternalPromptForCheckoutAndSave took 96 ms (total: 1.20 sec)
+[2023.10.17-17.03.00:914][497]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2023.10.17-17.03.00:929][497]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2023.10.17-17.03.00:944][497]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.10.17-17.03.00:960][497]AssetCheck: New page: Asset Save: multiple assets
+[2023.10.17-17.03.00:960][497]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/Basement/Key/Key_02.Key_02
+[2023.10.17-17.03.00:960][497]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Models/Basement/Key/Material_001.Material_001
+[2023.10.17-17.03.00:960][497]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Models/Basement/Key/Rust.Rust
+[2023.10.17-17.03.17:558][564]LogSlate: Window 'BP_key' being destroyed
+[2023.10.17-17.03.17:564][564]LogSlate: Window 'BP_key' being destroyed
+[2023.10.17-17.03.17:569][564]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2023.10.17-17.03.17:570][564]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.17-17.03.19:931][744]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Basement/Key/Key_02.Key_02
+[2023.10.17-17.03.19:931][744]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Basement/Key/Key_02.Key_02
+[2023.10.17-17.03.19:932][744]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/Basement/Key/Key_02.Key_02 as actor: StaticMeshActor /Game/FirstPerson/Maps/Map_Basement.Map_Basement:PersistentLevel.StaticMeshActor_0
+[2023.10.17-17.03.20:606][814]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Basement/Key/Key_02.Key_02
+[2023.10.17-17.03.20:606][814]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Basement/Key/Key_02.Key_02
+[2023.10.17-17.03.20:607][814]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/Basement/Key/Key_02.Key_02 as actor: StaticMeshActor /Game/FirstPerson/Maps/Map_Basement.Map_Basement:PersistentLevel.StaticMeshActor_2
+[2023.10.17-17.03.23:379][111]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.17-17.03.23:388][111]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.10.17-17.03.23:388][111]LogPlayLevel: [PlayLevel] Compiling BP_key before play...
+[2023.10.17-17.03.23:402][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2023.10.17-17.03.23:404][111]LogPlayLevel: PlayLevel: Blueprint regeneration took 17 ms (1 blueprints)
+[2023.10.17-17.03.23:404][111]PIE: New page: PIE session: Map_Basement (17 Oct 2023, 19:03:23)
+[2023.10.17-17.03.23:404][111]LogPlayLevel: Display: Creating online subsystem for client :Context_5
+[2023.10.17-17.03.23:406][111]LogOnline: OSS: Created online subsystem instance for: :Context_5
+[2023.10.17-17.03.23:417][112]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_Map_Basement
+[2023.10.17-17.03.23:418][112]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001655s)
+[2023.10.17-17.03.23:418][112]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/Map_Basement.Map_Basement to /Game/FirstPerson/Maps/UEDPIE_0_Map_Basement.Map_Basement (0.001689s)
+[2023.10.17-17.03.23:432][112]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2023.10.17-17.03.23:432][112]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.17-17.03.23:432][112]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.17-17.03.23:433][112]LogAIModule: Creating AISystem for world Map_Basement
+[2023.10.17-17.03.23:433][112]LogPlayLevel: PIE: World Init took: (0.000933s)
+[2023.10.17-17.03.23:433][112]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.10.17-17.03.23:433][112]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.17-17.03.23:433][112]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.17-17.03.23:433][112]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.17-17.03.23:433][112]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.17-17.03.23:433][112]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.10.17-17.03.23:433][112]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.17-17.03.23:433][112]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.10.17-17.03.23:433][112]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.17-17.03.23:434][112]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.17-17.03.23:434][112]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.17-17.03.23:434][112]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.17-17.03.23:436][112]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.17-17.03.23:477][112]LogAudioMixer: Display: Using Audio Hardware Device T24C300 (NVIDIA High Definition Audio)
+[2023.10.17-17.03.23:477][112]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.17-17.03.23:477][112]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.17-17.03.23:477][112]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.17-17.03.23:477][112]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2023.10.17-17.03.23:478][112]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2023.10.17-17.03.23:479][112]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2023.10.17-17.03.23:479][112]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2023.10.17-17.03.23:479][112]LogInit: FAudioDevice initialized with ID 3.
+[2023.10.17-17.03.23:479][112]LogAudio: Display: Audio Device (ID: 3) registered with world 'Map_Basement'.
+[2023.10.17-17.03.23:479][112]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2023.10.17-17.03.23:482][112]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.10.17-17.03.23:483][112]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_Map_Basement.Map_Basement up for play (max tick rate 0) at 2023.10.17-18.03.23
+[2023.10.17-17.03.23:483][112]LogWorld: Bringing up level for play took: 0.000504
+[2023.10.17-17.03.23:485][112]PIE: Server logged in
+[2023.10.17-17.03.23:485][112]PIE: Play in editor total start time 0.098 seconds.
+[2023.10.17-17.03.32:183][142]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.17-17.03.32:183][142]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_Map_Basement
+[2023.10.17-17.03.32:183][142]LogWorld: UWorld::CleanupWorld for Map_Basement, bSessionEnded=true, bCleanupResources=true
+[2023.10.17-17.03.32:184][142]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.17-17.03.32:187][142]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.17-17.03.32:191][142]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.17-17.03.32:201][142]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.17-17.03.32:201][142]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2023.10.17-17.03.32:201][142]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.10.17-17.03.32:203][142]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.10.17-17.03.32:209][142]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.10.17-17.03.32:275][143]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2023.10.17-17.10.29:002][190]Cmd: DELETE
+[2023.10.17-17.10.29:003][190]Cmd: ACTOR DELETE
+[2023.10.17-17.10.29:004][190]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.17-17.10.29:021][190]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.10.17-17.10.29:023][190]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2023.10.17-17.10.31:213][443]Cmd: TRANSACTION UNDO
+[2023.10.17-17.10.31:213][443]LogEditorTransaction: Undo Delete Elements
+[2023.10.17-17.10.33:794][619]Cmd: DELETE
+[2023.10.17-17.10.33:794][619]Cmd: ACTOR DELETE
+[2023.10.17-17.10.33:795][619]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.17-17.10.33:812][619]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.10.17-17.10.33:814][619]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2023.10.17-17.10.46:991][878]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/PickingUpSystem/BP_key.BP_key
+[2023.10.17-17.10.46:991][878]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.17-17.10.46:991][878]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.17-17.10.47:152][878]LogSlate: Took 0.000250 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.10.17-17.10.48:874][ 49]LogSlate: Window 'BP_key' being destroyed
+[2023.10.17-17.10.48:882][ 49]LogSlate: Window 'BP_key' being destroyed
+[2023.10.17-17.10.48:887][ 49]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2023.10.17-17.10.48:887][ 49]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.17-17.10.50:681][236]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/PickingUpSystem/BP_key.BP_key
+[2023.10.17-17.10.50:681][236]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.17-17.10.50:682][236]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.17-17.10.53:415][487]LogViewport: Scene viewport resized to 552x501, mode Windowed.
+[2023.10.17-17.10.57:968][868]LogViewport: Scene viewport resized to 1078x875, mode Windowed.
+[2023.10.17-17.11.02:812][263]LogSlate: Took 0.000225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.10.17-17.11.04:623][395]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.17-17.12.22:067][441]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.17-17.12.22:137][441]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PickingUpSystem/BP_key" FILE="../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/PickingUpSystem/BP_key.uasset" SILENT=true
+[2023.10.17-17.12.22:143][441]LogSavePackage: Moving output files for package: /Game/PickingUpSystem/BP_key
+[2023.10.17-17.12.22:143][441]LogSavePackage: Moving '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Saved/BP_key7620BF1546B5090A054CD890C7A15676.tmp' to '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/PickingUpSystem/BP_key.uasset'
+[2023.10.17-17.12.22:156][441]LogFileHelpers: InternalPromptForCheckoutAndSave took 88 ms (total: 1.29 sec)
+[2023.10.17-17.12.22:157][441]AssetCheck: New page: Asset Save: BP_key
+[2023.10.17-17.12.22:157][441]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/PickingUpSystem/BP_key.BP_key
+[2023.10.17-17.12.23:959][568]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2023.10.17-17.12.23:973][568]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Maps/Map_Basement_Auto2
+[2023.10.17-17.12.23:973][568]LogSavePackage: Moving '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Saved/Map_Basement_Auto28AB4CF114E5D35FCA5879180C46EB65B.tmp' to '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Saved/Autosaves/Game/FirstPerson/Maps/Map_Basement_Auto2.umap'
+[2023.10.17-17.12.23:975][568]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Saved/Autosaves/Game/FirstPerson/Maps/Map_Basement_Auto2.umap is in the /Temp path, will not scan.
+[2023.10.17-17.12.23:975][568]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/FirstPerson/Maps/Map_Basement_Auto2 is in the /Temp path, will not scan.
+[2023.10.17-17.12.23:975][568]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/FirstPerson/Maps/Map_Basement_Auto2 is in the /Temp path, will not scan.
+[2023.10.17-17.12.23:975][568]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/Map_Basement' took 0.031
+[2023.10.17-17.12.23:975][568]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.031
+[2023.10.17-17.19.28:839][573]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.17-17.19.28:902][573]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PickingUpSystem/BP_key" FILE="../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/PickingUpSystem/BP_key.uasset" SILENT=true
+[2023.10.17-17.19.28:908][573]LogSavePackage: Moving output files for package: /Game/PickingUpSystem/BP_key
+[2023.10.17-17.19.28:909][573]LogSavePackage: Moving '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Saved/BP_key5E99349D42BDF1967661B0B33F4C3335.tmp' to '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/PickingUpSystem/BP_key.uasset'
+[2023.10.17-17.19.28:916][573]LogFileHelpers: InternalPromptForCheckoutAndSave took 76 ms (total: 1.36 sec)
+[2023.10.17-17.19.28:917][573]AssetCheck: New page: Asset Save: BP_key
+[2023.10.17-17.19.28:917][573]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/PickingUpSystem/BP_key.BP_key
+[2023.10.17-17.19.29:455][611]BlueprintLog: New page: Compile BP_key
+[2023.10.17-17.19.29:480][611]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2023.10.17-17.20.05:900][399]BlueprintLog: New page: Compile BP_key
+[2023.10.17-17.20.05:922][399]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.10.17-17.20.11:495][691]LogViewport: Scene viewport resized to 552x501, mode Windowed.
+[2023.10.17-17.20.15:021][  6]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/PickingUpSystem/BP_key.BP_key_C
+[2023.10.17-17.20.15:021][  6]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/PickingUpSystem/BP_key.BP_key_C
+[2023.10.17-17.20.15:023][  6]LogActorFactory: Actor Factory spawned Blueprint /Game/PickingUpSystem/BP_key.BP_key as actor: BP_key_C /Game/FirstPerson/Maps/Map_Basement.Map_Basement:PersistentLevel.BP_key_C_0
+[2023.10.17-17.20.15:023][  6]LogActorFactory: Actor Factory spawned Blueprint /Game/PickingUpSystem/BP_key.BP_key as actor: BP_key_C /Game/FirstPerson/Maps/Map_Basement.Map_Basement:PersistentLevel.BP_key_C_0
+[2023.10.17-17.20.15:783][ 80]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/PickingUpSystem/BP_key.BP_key_C
+[2023.10.17-17.20.15:783][ 80]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/PickingUpSystem/BP_key.BP_key_C
+[2023.10.17-17.20.15:785][ 80]LogActorFactory: Actor Factory spawned Blueprint /Game/PickingUpSystem/BP_key.BP_key as actor: BP_key_C /Game/FirstPerson/Maps/Map_Basement.Map_Basement:PersistentLevel.BP_key_C_1
+[2023.10.17-17.20.15:786][ 80]LogActorFactory: Actor Factory spawned Blueprint /Game/PickingUpSystem/BP_key.BP_key as actor: BP_key_C /Game/FirstPerson/Maps/Map_Basement.Map_Basement:PersistentLevel.BP_key_C_1
+[2023.10.17-17.20.21:437][710]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.17-17.20.21:445][710]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.17-17.20.21:445][710]PIE: New page: PIE session: Map_Basement (17 Oct 2023, 19:20:21)
+[2023.10.17-17.20.21:483][710]LogPlayLevel: Display: Creating online subsystem for client :Context_9
+[2023.10.17-17.20.21:484][710]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2023.10.17-17.20.21:496][711]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_Map_Basement
+[2023.10.17-17.20.21:497][711]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001737s)
+[2023.10.17-17.20.21:497][711]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/Map_Basement.Map_Basement to /Game/FirstPerson/Maps/UEDPIE_0_Map_Basement.Map_Basement (0.001770s)
+[2023.10.17-17.20.21:512][711]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2023.10.17-17.20.21:513][711]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.17-17.20.21:513][711]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.17-17.20.21:513][711]LogAIModule: Creating AISystem for world Map_Basement
+[2023.10.17-17.20.21:513][711]LogPlayLevel: PIE: World Init took: (0.000885s)
+[2023.10.17-17.20.21:513][711]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.10.17-17.20.21:514][711]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.17-17.20.21:514][711]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.17-17.20.21:514][711]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.17-17.20.21:514][711]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.17-17.20.21:514][711]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.10.17-17.20.21:514][711]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.17-17.20.21:514][711]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.10.17-17.20.21:514][711]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.17-17.20.21:514][711]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.17-17.20.21:514][711]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.17-17.20.21:514][711]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.17-17.20.21:516][711]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.17-17.20.21:555][711]LogAudioMixer: Display: Using Audio Hardware Device T24C300 (NVIDIA High Definition Audio)
+[2023.10.17-17.20.21:556][711]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.17-17.20.21:556][711]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.17-17.20.21:556][711]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.17-17.20.21:557][711]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2023.10.17-17.20.21:557][711]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2023.10.17-17.20.21:558][711]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2023.10.17-17.20.21:558][711]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2023.10.17-17.20.21:558][711]LogInit: FAudioDevice initialized with ID 4.
+[2023.10.17-17.20.21:558][711]LogAudio: Display: Audio Device (ID: 4) registered with world 'Map_Basement'.
+[2023.10.17-17.20.21:558][711]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2023.10.17-17.20.21:561][711]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.10.17-17.20.21:561][711]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_Map_Basement.Map_Basement up for play (max tick rate 0) at 2023.10.17-18.20.21
+[2023.10.17-17.20.21:562][711]LogWorld: Bringing up level for play took: 0.000578
+[2023.10.17-17.20.21:564][711]PIE: Server logged in
+[2023.10.17-17.20.21:564][711]PIE: Play in editor total start time 0.12 seconds.
+[2023.10.17-17.20.29:063][594]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.17-17.20.29:063][594]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_Map_Basement
+[2023.10.17-17.20.29:063][594]LogWorld: UWorld::CleanupWorld for Map_Basement, bSessionEnded=true, bCleanupResources=true
+[2023.10.17-17.20.29:063][594]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.17-17.20.29:066][594]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.17-17.20.29:070][594]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.17-17.20.29:082][594]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.17-17.20.29:082][594]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2023.10.17-17.20.29:083][594]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.10.17-17.20.29:084][594]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.10.17-17.20.29:088][594]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.17-17.20.29:090][594]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.10.17-17.20.29:159][595]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2023.10.17-17.21.13:931][949]LogViewport: Scene viewport resized to 1078x875, mode Windowed.
+[2023.10.17-17.22.38:468][138]BlueprintLog: New page: Compile BP_key
+[2023.10.17-17.22.38:494][138]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2023.10.17-17.22.38:871][150]BlueprintLog: New page: Compile BP_key
+[2023.10.17-17.22.38:896][150]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2023.10.17-17.22.39:626][196]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.17-17.22.39:695][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PickingUpSystem/BP_key" FILE="../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/PickingUpSystem/BP_key.uasset" SILENT=true
+[2023.10.17-17.22.39:702][196]LogSavePackage: Moving output files for package: /Game/PickingUpSystem/BP_key
+[2023.10.17-17.22.39:702][196]LogSavePackage: Moving '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Saved/BP_key5BAD9EDB43BF84E20865E98F8A375EFB.tmp' to '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/PickingUpSystem/BP_key.uasset'
+[2023.10.17-17.22.39:710][196]LogFileHelpers: InternalPromptForCheckoutAndSave took 85 ms (total: 1.45 sec)
+[2023.10.17-17.22.39:711][196]AssetCheck: New page: Asset Save: BP_key
+[2023.10.17-17.22.39:711][196]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/PickingUpSystem/BP_key.BP_key
+[2023.10.17-17.23.06:667][258]LogEditorTransaction: Undo Modify Component Scale
+[2023.10.17-17.23.33:623][416]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2023.10.17-17.23.33:637][416]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Maps/Map_Basement_Auto3
+[2023.10.17-17.23.33:637][416]LogSavePackage: Moving '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Saved/Map_Basement_Auto38F7FE15341619E4282926DBAF823C612.tmp' to '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Saved/Autosaves/Game/FirstPerson/Maps/Map_Basement_Auto3.umap'
+[2023.10.17-17.23.33:639][416]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Saved/Autosaves/Game/FirstPerson/Maps/Map_Basement_Auto3.umap is in the /Temp path, will not scan.
+[2023.10.17-17.23.33:639][416]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/FirstPerson/Maps/Map_Basement_Auto3 is in the /Temp path, will not scan.
+[2023.10.17-17.23.33:639][416]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/FirstPerson/Maps/Map_Basement_Auto3 is in the /Temp path, will not scan.
+[2023.10.17-17.23.33:639][416]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/Map_Basement' took 0.030
+[2023.10.17-17.23.33:639][416]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.030
+[2023.10.17-17.24.08:911][524]BlueprintLog: New page: Compile BP_key
+[2023.10.17-17.24.09:034][524]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.10.17-17.24.10:101][580]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.17-17.24.10:182][580]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PickingUpSystem/BP_key" FILE="../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/PickingUpSystem/BP_key.uasset" SILENT=true
+[2023.10.17-17.24.10:192][580]LogSavePackage: Moving output files for package: /Game/PickingUpSystem/BP_key
+[2023.10.17-17.24.10:193][580]LogSavePackage: Moving '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Saved/BP_key8E991D0E4576FAC01D50CDA43498FF69.tmp' to '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/PickingUpSystem/BP_key.uasset'
+[2023.10.17-17.24.10:201][580]LogFileHelpers: InternalPromptForCheckoutAndSave took 99 ms (total: 1.55 sec)
+[2023.10.17-17.24.10:202][580]AssetCheck: New page: Asset Save: BP_key
+[2023.10.17-17.24.10:202][580]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/PickingUpSystem/BP_key.BP_key
+[2023.10.17-17.24.17:473][ 43]LogViewport: Scene viewport resized to 1076x898, mode Windowed.
+[2023.10.17-17.24.17:591][ 45]LogViewport: Scene viewport resized to 468x317, mode Windowed.
+[2023.10.17-17.24.17:648][ 46]LogViewport: Scene viewport resized to 441x292, mode Windowed.
+[2023.10.17-17.24.18:089][ 74]LogViewport: Scene viewport resized to 1078x875, mode Windowed.
+[2023.10.17-17.24.18:672][131]LogSlate: Window 'BP_key' being destroyed
+[2023.10.17-17.24.34:018][866]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.10.17-17.24.37:068][ 94]LogContentBrowser: Deferred new asset file creation: NewInterface
+[2023.10.17-17.24.37:074][ 94]LogContentBrowser: Creating deferred item: NewInterface
+[2023.10.17-17.24.37:084][ 95]LogContentBrowser: Renaming the item being created (Deferred Item: NewInterface).
+[2023.10.17-17.25.05:286][ 14]LogContentBrowser: Attempting asset rename: NewInterface -> BPI_PickupItems
+[2023.10.17-17.25.05:295][ 14]LogContentBrowser: End creating deferred item NewInterface
+[2023.10.17-17.25.06:814][130]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/PickingUpSystem/BPI_PickupItems.BPI_PickupItems
+[2023.10.17-17.25.06:814][130]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.17-17.25.06:814][130]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.17-17.27.07:083][450]BlueprintLog: New page: Compile BPI_PickupItems
+[2023.10.17-17.27.07:104][450]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2023.10.17-17.27.07:794][520]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.17-17.27.07:852][520]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PickingUpSystem/BPI_PickupItems" FILE="../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/PickingUpSystem/BPI_PickupItems.uasset" SILENT=true
+[2023.10.17-17.27.07:855][520]LogSavePackage: Moving output files for package: /Game/PickingUpSystem/BPI_PickupItems
+[2023.10.17-17.27.07:855][520]LogSavePackage: Moving '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Saved/BPI_PickupItems0A9BE42A4E9EDB9DA6ED798A1A386178.tmp' to '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/PickingUpSystem/BPI_PickupItems.uasset'
+[2023.10.17-17.27.07:867][520]LogFileHelpers: InternalPromptForCheckoutAndSave took 72 ms (total: 1.62 sec)
+[2023.10.17-17.27.07:867][520]AssetCheck: New page: Asset Save: BPI_PickupItems
+[2023.10.17-17.27.07:867][520]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/PickingUpSystem/BPI_PickupItems.BPI_PickupItems
+[2023.10.17-17.32.20:649][236]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2023.10.17-17.32.20:649][236]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.17-17.33.49:961][141]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2023.10.17-17.33.49:976][141]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Maps/Map_Basement_Auto4
+[2023.10.17-17.33.49:976][141]LogSavePackage: Moving '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Saved/Map_Basement_Auto43B4A5F4B45BA385BC5FE61A0E641C2C0.tmp' to '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Saved/Autosaves/Game/FirstPerson/Maps/Map_Basement_Auto4.umap'
+[2023.10.17-17.33.49:978][141]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Saved/Autosaves/Game/FirstPerson/Maps/Map_Basement_Auto4.umap is in the /Temp path, will not scan.
+[2023.10.17-17.33.49:978][141]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/FirstPerson/Maps/Map_Basement_Auto4 is in the /Temp path, will not scan.
+[2023.10.17-17.33.49:978][141]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/FirstPerson/Maps/Map_Basement_Auto4 is in the /Temp path, will not scan.
+[2023.10.17-17.33.49:978][141]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/Map_Basement' took 0.032
+[2023.10.17-17.33.49:978][141]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.032
+[2023.10.17-17.33.49:979][141]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/PickingUpSystem/BP_key] ([2] browsable assets)...
+[2023.10.17-17.33.50:074][141]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/PickingUpSystem/BP_key.BP_key]
+[2023.10.17-17.33.50:074][141]OBJ SavePackage: Finished generating thumbnails for package [/Game/PickingUpSystem/BP_key]
+[2023.10.17-17.33.50:081][141]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/PickingUpSystem/BP_key_Auto4
+[2023.10.17-17.33.50:081][141]LogSavePackage: Moving '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Saved/BP_key_Auto4C72E0CC34C6935053285D0B6809B8275.tmp' to '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Saved/Autosaves/Game/PickingUpSystem/BP_key_Auto4.uasset'
+[2023.10.17-17.33.50:082][141]LogFileHelpers: Auto-saving content packages took 0.103
+[2023.10.17-17.34.48:919][851]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.17-17.34.48:982][852]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.17-17.34.49:013][853]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.17-17.34.51:004][ 22]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2023.10.17-17.34.51:005][ 22]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.17-17.34.51:005][ 22]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.17-17.36.47:133][367]BlueprintLog: New page: Compile BP_key
+[2023.10.17-17.36.47:155][367]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2023.10.17-17.37.55:557][121]Cmd: TRANSACTION UNDO
+[2023.10.17-17.37.55:557][121]LogEditorTransaction: Undo Move Elements
+[2023.10.17-17.38.01:268][683]Cmd: TRANSACTION UNDO
+[2023.10.17-17.38.01:268][683]LogEditorTransaction: Undo Move Elements
+[2023.10.17-17.38.01:538][688]Cmd: TRANSACTION UNDO
+[2023.10.17-17.38.01:538][688]LogEditorTransaction: Undo Move Elements
+[2023.10.17-17.38.01:931][705]Cmd: TRANSACTION UNDO
+[2023.10.17-17.38.01:931][705]LogEditorTransaction: Undo Move Elements
+[2023.10.17-17.38.20:227][712]BlueprintLog: New page: Compile BP_key
+[2023.10.17-17.38.20:258][712]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.10.17-17.38.21:025][780]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.17-17.38.21:085][780]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PickingUpSystem/BP_key" FILE="../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/PickingUpSystem/BP_key.uasset" SILENT=true
+[2023.10.17-17.38.21:092][780]LogSavePackage: Moving output files for package: /Game/PickingUpSystem/BP_key
+[2023.10.17-17.38.21:093][780]LogSavePackage: Moving '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Saved/BP_key3951310B40E6B13F6B6815B0E2FA3661.tmp' to '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/PickingUpSystem/BP_key.uasset'
+[2023.10.17-17.38.21:101][780]LogFileHelpers: InternalPromptForCheckoutAndSave took 76 ms (total: 1.70 sec)
+[2023.10.17-17.38.21:103][780]AssetCheck: New page: Asset Save: BP_key
+[2023.10.17-17.38.21:103][780]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/PickingUpSystem/BP_key.BP_key
+[2023.10.17-17.38.22:750][936]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.17-17.38.22:844][936]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.10.17-17.38.22:859][936]LogSavePackage: Moving output files for package: /Game/FirstPerson/Maps/Map_Basement
+[2023.10.17-17.38.22:860][936]LogSavePackage: Moving '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Saved/Map_Basement7E9C0C7343B2EA00FEDAA7BEF90B4BB2.tmp' to '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/FirstPerson/Maps/Map_Basement.umap'
+[2023.10.17-17.38.22:867][936]LogFileHelpers: Saving map 'Map_Basement' took 0.059
+[2023.10.17-17.38.22:873][936]LogFileHelpers: InternalPromptForCheckoutAndSave took 123 ms (total: 1.82 sec)
+[2023.10.17-17.38.22:874][936]AssetCheck: New page: Asset Save: Map_Basement
+[2023.10.17-17.38.22:874][936]LogContentValidation: Display: Validating /Script/Engine.World /Game/FirstPerson/Maps/Map_Basement.Map_Basement
+[2023.10.17-17.38.24:621][117]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2023.10.17-17.38.24:679][117]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.10.17-17.38.25:406][187]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.17-17.38.25:519][187]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2023.10.17-17.38.25:520][187]LogSavePackage: Moving '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Saved/BP_FirstPersonCharacter079550A84EBA254B88749487E477A0EB.tmp' to '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2023.10.17-17.38.25:528][187]LogFileHelpers: InternalPromptForCheckoutAndSave took 122 ms (total: 1.94 sec)
+[2023.10.17-17.38.25:529][187]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2023.10.17-17.38.25:529][187]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2023.10.17-17.38.51:102][ 77]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.17-17.38.51:156][ 77]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PickingUpSystem/BP_key" FILE="../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/PickingUpSystem/BP_key.uasset" SILENT=true
+[2023.10.17-17.38.51:163][ 77]LogSavePackage: Moving output files for package: /Game/PickingUpSystem/BP_key
+[2023.10.17-17.38.51:164][ 77]LogSavePackage: Moving '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Saved/BP_key618B7F734C304F47B0D6CC93AD5BD59A.tmp' to '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/PickingUpSystem/BP_key.uasset'
+[2023.10.17-17.38.51:172][ 77]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 2.01 sec)
+[2023.10.17-17.38.51:174][ 77]AssetCheck: New page: Asset Save: BP_key
+[2023.10.17-17.38.51:174][ 77]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/PickingUpSystem/BP_key.BP_key
+[2023.10.17-17.38.51:696][132]BlueprintLog: New page: Compile BP_key
+[2023.10.17-17.38.51:727][132]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2023.10.17-17.40.08:193][531]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2023.10.17-17.40.08:261][531]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.10.17-17.40.09:175][613]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.17-17.40.09:327][613]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2023.10.17-17.40.09:328][613]LogSavePackage: Moving '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Saved/BP_FirstPersonCharacterFEC2BC59409FE077D00458832C4B6ECB.tmp' to '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2023.10.17-17.40.09:340][613]LogFileHelpers: InternalPromptForCheckoutAndSave took 164 ms (total: 2.18 sec)
+[2023.10.17-17.40.09:341][613]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2023.10.17-17.40.09:341][613]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2023.10.17-17.40.17:956][843]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.17-17.40.18:060][843]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.10.17-17.40.18:074][843]LogSavePackage: Moving output files for package: /Game/FirstPerson/Maps/Map_Basement
+[2023.10.17-17.40.18:075][843]LogSavePackage: Moving '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Saved/Map_Basement328B4CC7494463040E40728602194474.tmp' to '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/FirstPerson/Maps/Map_Basement.umap'
+[2023.10.17-17.40.18:082][843]LogFileHelpers: Saving map 'Map_Basement' took 0.060
+[2023.10.17-17.40.18:090][843]LogFileHelpers: InternalPromptForCheckoutAndSave took 134 ms (total: 2.31 sec)
+[2023.10.17-17.40.18:091][843]AssetCheck: New page: Asset Save: Map_Basement
+[2023.10.17-17.40.18:091][843]LogContentValidation: Display: Validating /Script/Engine.World /Game/FirstPerson/Maps/Map_Basement.Map_Basement
+[2023.10.17-17.40.19:847][ 45]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.17-17.40.19:857][ 45]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.17-17.40.19:857][ 45]PIE: New page: PIE session: Map_Basement (17 Oct 2023, 19:40:19)
+[2023.10.17-17.40.19:857][ 45]LogPlayLevel: Display: Creating online subsystem for client :Context_15
+[2023.10.17-17.40.19:860][ 45]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2023.10.17-17.40.19:871][ 46]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_Map_Basement
+[2023.10.17-17.40.19:873][ 46]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001754s)
+[2023.10.17-17.40.19:873][ 46]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/Map_Basement.Map_Basement to /Game/FirstPerson/Maps/UEDPIE_0_Map_Basement.Map_Basement (0.001786s)
+[2023.10.17-17.40.19:885][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2023.10.17-17.40.19:886][ 46]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.17-17.40.19:886][ 46]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.17-17.40.19:887][ 46]LogAIModule: Creating AISystem for world Map_Basement
+[2023.10.17-17.40.19:887][ 46]LogPlayLevel: PIE: World Init took: (0.000892s)
+[2023.10.17-17.40.19:887][ 46]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2023.10.17-17.40.19:887][ 46]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.17-17.40.19:887][ 46]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.17-17.40.19:887][ 46]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.17-17.40.19:887][ 46]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.17-17.40.19:887][ 46]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.10.17-17.40.19:887][ 46]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.17-17.40.19:887][ 46]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.10.17-17.40.19:887][ 46]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.17-17.40.19:888][ 46]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.17-17.40.19:888][ 46]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.17-17.40.19:888][ 46]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.17-17.40.19:889][ 46]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.17-17.40.19:929][ 46]LogAudioMixer: Display: Using Audio Hardware Device T24C300 (NVIDIA High Definition Audio)
+[2023.10.17-17.40.19:930][ 46]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.17-17.40.19:930][ 46]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.17-17.40.19:930][ 46]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.17-17.40.19:931][ 46]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2023.10.17-17.40.19:931][ 46]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2023.10.17-17.40.19:932][ 46]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2023.10.17-17.40.19:932][ 46]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2023.10.17-17.40.19:932][ 46]LogInit: FAudioDevice initialized with ID 5.
+[2023.10.17-17.40.19:932][ 46]LogAudio: Display: Audio Device (ID: 5) registered with world 'Map_Basement'.
+[2023.10.17-17.40.19:932][ 46]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2023.10.17-17.40.19:935][ 46]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.10.17-17.40.19:935][ 46]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_Map_Basement.Map_Basement up for play (max tick rate 0) at 2023.10.17-18.40.19
+[2023.10.17-17.40.19:935][ 46]LogWorld: Bringing up level for play took: 0.000535
+[2023.10.17-17.40.19:937][ 46]PIE: Server logged in
+[2023.10.17-17.40.19:938][ 46]PIE: Play in editor total start time 0.082 seconds.
+[2023.10.17-17.40.27:119][888]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.17-17.40.27:119][888]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_Map_Basement
+[2023.10.17-17.40.27:119][888]LogWorld: UWorld::CleanupWorld for Map_Basement, bSessionEnded=true, bCleanupResources=true
+[2023.10.17-17.40.27:120][888]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.17-17.40.27:124][888]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.17-17.40.27:129][888]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.17-17.40.27:142][888]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.17-17.40.27:142][888]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2023.10.17-17.40.27:142][888]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.10.17-17.40.27:144][888]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.10.17-17.40.27:150][888]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.10.17-17.40.27:197][889]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2023.10.17-17.40.37:601][612]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.17-17.40.37:610][612]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.17-17.40.37:610][612]PIE: New page: PIE session: Map_Basement (17 Oct 2023, 19:40:37)
+[2023.10.17-17.40.37:610][612]LogPlayLevel: Display: Creating online subsystem for client :Context_16
+[2023.10.17-17.40.37:612][612]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2023.10.17-17.40.37:627][613]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_Map_Basement
+[2023.10.17-17.40.37:629][613]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001979s)
+[2023.10.17-17.40.37:629][613]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/Map_Basement.Map_Basement to /Game/FirstPerson/Maps/UEDPIE_0_Map_Basement.Map_Basement (0.002012s)
+[2023.10.17-17.40.37:644][613]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2023.10.17-17.40.37:649][613]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.17-17.40.37:649][613]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.17-17.40.37:649][613]LogAIModule: Creating AISystem for world Map_Basement
+[2023.10.17-17.40.37:650][613]LogPlayLevel: PIE: World Init took: (0.000912s)
+[2023.10.17-17.40.37:650][613]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.10.17-17.40.37:650][613]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.17-17.40.37:650][613]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.17-17.40.37:650][613]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.17-17.40.37:650][613]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.17-17.40.37:650][613]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.10.17-17.40.37:650][613]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.17-17.40.37:650][613]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.10.17-17.40.37:650][613]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.17-17.40.37:650][613]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.17-17.40.37:650][613]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.17-17.40.37:650][613]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.17-17.40.37:652][613]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.17-17.40.37:695][613]LogAudioMixer: Display: Using Audio Hardware Device T24C300 (NVIDIA High Definition Audio)
+[2023.10.17-17.40.37:695][613]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.17-17.40.37:695][613]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.17-17.40.37:695][613]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.17-17.40.37:698][613]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2023.10.17-17.40.37:698][613]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2023.10.17-17.40.37:700][613]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2023.10.17-17.40.37:700][613]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2023.10.17-17.40.37:701][613]LogInit: FAudioDevice initialized with ID 6.
+[2023.10.17-17.40.37:701][613]LogAudio: Display: Audio Device (ID: 6) registered with world 'Map_Basement'.
+[2023.10.17-17.40.37:701][613]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2023.10.17-17.40.37:703][613]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.10.17-17.40.37:704][613]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_Map_Basement.Map_Basement up for play (max tick rate 0) at 2023.10.17-18.40.37
+[2023.10.17-17.40.37:704][613]LogWorld: Bringing up level for play took: 0.000510
+[2023.10.17-17.40.37:706][613]PIE: Server logged in
+[2023.10.17-17.40.37:706][613]PIE: Play in editor total start time 0.097 seconds.
+[2023.10.17-17.40.39:791][840]LogBlueprintUserMessages: [BP_key_C_1] Item Picked
+[2023.10.17-17.40.41:269][ 12]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.17-17.40.41:269][ 12]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_Map_Basement
+[2023.10.17-17.40.41:269][ 12]LogWorld: UWorld::CleanupWorld for Map_Basement, bSessionEnded=true, bCleanupResources=true
+[2023.10.17-17.40.41:270][ 12]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.17-17.40.41:274][ 12]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.17-17.40.41:278][ 12]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.17-17.40.41:294][ 12]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.17-17.40.41:294][ 12]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2023.10.17-17.40.41:294][ 12]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.10.17-17.40.41:296][ 12]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.10.17-17.40.41:303][ 12]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.17-17.40.41:305][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2023.10.17-17.40.41:361][ 13]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2023.10.17-17.41.28:414][892]LogContentBrowser: Attempting asset rename: BP_key -> BP_key
+[2023.10.17-17.41.34:065][497]LogContentBrowser: Attempting asset rename: BP_key -> BP_Item
+[2023.10.17-17.41.34:092][497]LogMetaData: Removing '/Game/PickingUpSystem/BP_Item.BP_Item:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/PickingUpSystem/BP_key.PackageMetaData'
+[2023.10.17-17.41.34:093][497]LogMetaData: Removing '/Game/PickingUpSystem/BP_Item.SKEL_BP_Item_C' ref from Metadata '/Game/PickingUpSystem/BP_key.PackageMetaData'
+[2023.10.17-17.41.34:093][497]LogMetaData: Removing '/Game/PickingUpSystem/BP_Item.BP_Item_C' ref from Metadata '/Game/PickingUpSystem/BP_key.PackageMetaData'
+[2023.10.17-17.41.34:093][497]LogMetaData: Removing '/Game/PickingUpSystem/BP_Item.BP_Item:EventGraph.K2Node_Event_0' ref from Metadata '/Game/PickingUpSystem/BP_key.PackageMetaData'
+[2023.10.17-17.41.34:093][497]LogMetaData: Removing '/Game/PickingUpSystem/BP_Item.BP_Item:EventGraph.K2Node_Event_1' ref from Metadata '/Game/PickingUpSystem/BP_key.PackageMetaData'
+[2023.10.17-17.41.34:093][497]LogMetaData: Removing '/Game/PickingUpSystem/BP_Item.BP_Item:EventGraph.K2Node_Event_2' ref from Metadata '/Game/PickingUpSystem/BP_key.PackageMetaData'
+[2023.10.17-17.41.34:093][497]LogMetaData: Removing '/Game/PickingUpSystem/BP_Item.SKEL_BP_Item_C:ReceiveBeginPlay' ref from Metadata '/Game/PickingUpSystem/BP_key.PackageMetaData'
+[2023.10.17-17.41.34:093][497]LogMetaData: Removing '/Game/PickingUpSystem/BP_Item.SKEL_BP_Item_C:UserConstructionScript' ref from Metadata '/Game/PickingUpSystem/BP_key.PackageMetaData'
+[2023.10.17-17.41.34:093][497]LogMetaData: Removing '/Game/PickingUpSystem/BP_Item.SKEL_BP_Item_C:ReceiveTick' ref from Metadata '/Game/PickingUpSystem/BP_key.PackageMetaData'
+[2023.10.17-17.41.34:093][497]LogMetaData: Removing '/Game/PickingUpSystem/BP_Item.SKEL_BP_Item_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/PickingUpSystem/BP_key.PackageMetaData'
+[2023.10.17-17.41.34:105][497]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.17-17.41.34:156][497]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.17-17.41.34:207][497]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PickingUpSystem/BP_Item" FILE="../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/PickingUpSystem/BP_Item.uasset" SILENT=true
+[2023.10.17-17.41.34:215][497]LogSavePackage: Moving output files for package: /Game/PickingUpSystem/BP_Item
+[2023.10.17-17.41.34:215][497]LogSavePackage: Moving '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Saved/BP_ItemB5AD2B164C43F2785DFC8D87C4231F59.tmp' to '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/PickingUpSystem/BP_Item.uasset'
+[2023.10.17-17.41.34:220][497]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PickingUpSystem/BP_key" FILE="../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/PickingUpSystem/BP_key.uasset" SILENT=true
+[2023.10.17-17.41.34:222][497]LogSavePackage: Moving output files for package: /Game/PickingUpSystem/BP_key
+[2023.10.17-17.41.34:223][497]LogSavePackage: Moving '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Saved/BP_key3062BC484614E2DD2A4605B34430C2DA.tmp' to '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/PickingUpSystem/BP_key.uasset'
+[2023.10.17-17.41.34:233][497]LogFileHelpers: InternalPromptForCheckoutAndSave took 127 ms (total: 2.44 sec)
+[2023.10.17-17.41.34:234][497]AssetCheck: New page: Asset Save: multiple assets
+[2023.10.17-17.41.34:234][497]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/PickingUpSystem/BP_Item.BP_Item
+[2023.10.17-17.41.34:234][497]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/PickingUpSystem/BP_key.BP_key
+[2023.10.17-17.41.34:234][497]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/PickingUpSystem/BP_key.BP_key_C
+[2023.10.17-17.41.34:234][497]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/PickingUpSystem/BP_key.Default__BP_key_C
+[2023.10.17-17.41.46:828][897]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2023.10.17-17.41.46:885][897]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2023.10.17-17.41.47:465][948]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.17-17.41.47:621][948]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2023.10.17-17.41.47:622][948]LogSavePackage: Moving '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Saved/BP_FirstPersonCharacterD15AEBC8455BE3D6664F58942FEAAE9E.tmp' to '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2023.10.17-17.41.47:631][948]LogFileHelpers: InternalPromptForCheckoutAndSave took 165 ms (total: 2.61 sec)
+[2023.10.17-17.41.47:632][948]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2023.10.17-17.41.47:632][948]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2023.10.17-17.41.49:215][109]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.17-17.41.49:271][109]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PickingUpSystem/BP_Item" FILE="../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/PickingUpSystem/BP_Item.uasset" SILENT=true
+[2023.10.17-17.41.49:277][109]LogSavePackage: Moving output files for package: /Game/PickingUpSystem/BP_Item
+[2023.10.17-17.41.49:278][109]LogSavePackage: Moving '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Saved/BP_ItemEAC756E1437BEEDE9B71F48BB329EC6A.tmp' to '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/PickingUpSystem/BP_Item.uasset'
+[2023.10.17-17.41.49:286][109]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 2.68 sec)
+[2023.10.17-17.41.49:288][109]AssetCheck: New page: Asset Save: BP_Item
+[2023.10.17-17.41.49:288][109]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/PickingUpSystem/BP_Item.BP_Item
+[2023.10.17-17.41.50:747][245]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.17-17.41.50:844][245]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.10.17-17.41.50:859][245]LogSavePackage: Moving output files for package: /Game/FirstPerson/Maps/Map_Basement
+[2023.10.17-17.41.50:859][245]LogSavePackage: Moving '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Saved/Map_Basement8F25C44A4B83F97ABBE984AC5E1A73A2.tmp' to '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/FirstPerson/Maps/Map_Basement.umap'
+[2023.10.17-17.41.50:866][245]LogFileHelpers: Saving map 'Map_Basement' took 0.060
+[2023.10.17-17.41.50:873][245]LogFileHelpers: InternalPromptForCheckoutAndSave took 125 ms (total: 2.80 sec)
+[2023.10.17-17.41.50:874][245]AssetCheck: New page: Asset Save: Map_Basement
+[2023.10.17-17.41.50:874][245]LogContentValidation: Display: Validating /Script/Engine.World /Game/FirstPerson/Maps/Map_Basement.Map_Basement
+[2023.10.17-17.42.12:427][ 24]LogSlate: Took 0.027474 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2023.10.17-17.43.23:999][ 53]BlueprintLog: New page: Compile BP_Item
+[2023.10.17-17.43.24:030][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2023.10.17-17.43.34:142][109]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.17-17.43.34:241][109]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2023.10.17-17.43.34:255][109]LogSavePackage: Moving output files for package: /Game/FirstPerson/Maps/Map_Basement
+[2023.10.17-17.43.34:255][109]LogSavePackage: Moving '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Saved/Map_Basement9D2AB60145E0FD7F3A2F23970689B862.tmp' to '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/FirstPerson/Maps/Map_Basement.umap'
+[2023.10.17-17.43.34:262][109]LogFileHelpers: Saving map 'Map_Basement' took 0.058
+[2023.10.17-17.43.34:270][109]LogFileHelpers: InternalPromptForCheckoutAndSave took 127 ms (total: 2.93 sec)
+[2023.10.17-17.43.34:271][109]AssetCheck: New page: Asset Save: Map_Basement
+[2023.10.17-17.43.34:271][109]LogContentValidation: Display: Validating /Script/Engine.World /Game/FirstPerson/Maps/Map_Basement.Map_Basement
+[2023.10.17-17.43.53:003][389]BlueprintLog: New page: Compile BP_Item
+[2023.10.17-17.43.53:029][389]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2023.10.17-17.43.53:795][467]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.17-17.43.53:863][467]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PickingUpSystem/BP_Item" FILE="../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/PickingUpSystem/BP_Item.uasset" SILENT=true
+[2023.10.17-17.43.53:870][467]LogSavePackage: Moving output files for package: /Game/PickingUpSystem/BP_Item
+[2023.10.17-17.43.53:871][467]LogSavePackage: Moving '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Saved/BP_Item6E44D8954ED9075DFB4815B6DD617DFF.tmp' to '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/PickingUpSystem/BP_Item.uasset'
+[2023.10.17-17.43.53:879][467]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 3.01 sec)
+[2023.10.17-17.43.53:880][467]AssetCheck: New page: Asset Save: BP_Item
+[2023.10.17-17.43.53:880][467]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/PickingUpSystem/BP_Item.BP_Item
+[2023.10.17-17.44.35:221][775]BlueprintLog: New page: Compile BP_Item
+[2023.10.17-17.44.35:256][775]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2023.10.17-17.44.52:823][288]LogDerivedDataCache: C:/Users/Ben/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.175 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1250 files in 2057 folders with total size 84 MiB.
+[2023.10.17-17.46.15:531][584]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.17-17.46.15:774][584]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2023.10.17-17.46.15:788][584]LogSavePackage: Moving output files for package: /Game/FirstPerson/Maps/Map_Basement
+[2023.10.17-17.46.15:788][584]LogSavePackage: Moving '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Saved/Map_Basement33870AB441209D07E50D8ABBD38CE23B.tmp' to '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/FirstPerson/Maps/Map_Basement.umap'
+[2023.10.17-17.46.15:796][584]LogFileHelpers: Saving map 'Map_Basement' took 0.059
+[2023.10.17-17.46.15:803][584]LogFileHelpers: InternalPromptForCheckoutAndSave took 271 ms (total: 3.29 sec)
+[2023.10.17-17.46.15:804][584]AssetCheck: New page: Asset Save: Map_Basement
+[2023.10.17-17.46.15:804][584]LogContentValidation: Display: Validating /Script/Engine.World /Game/FirstPerson/Maps/Map_Basement.Map_Basement
+[2023.10.17-17.46.15:939][598]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.17-17.46.16:038][598]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2023.10.17-17.46.16:051][598]LogSavePackage: Moving output files for package: /Game/FirstPerson/Maps/Map_Basement
+[2023.10.17-17.46.16:052][598]LogSavePackage: Moving '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Saved/Map_BasementBBB4492D4814C9CB3B67FDAB33EC19D2.tmp' to '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/FirstPerson/Maps/Map_Basement.umap'
+[2023.10.17-17.46.16:058][598]LogFileHelpers: Saving map 'Map_Basement' took 0.055
+[2023.10.17-17.46.16:065][598]LogFileHelpers: InternalPromptForCheckoutAndSave took 126 ms (total: 3.41 sec)
+[2023.10.17-17.46.16:067][598]AssetCheck: New page: Asset Save: Map_Basement
+[2023.10.17-17.46.16:067][598]LogContentValidation: Display: Validating /Script/Engine.World /Game/FirstPerson/Maps/Map_Basement.Map_Basement
+[2023.10.17-17.46.17:344][731]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.17-17.46.17:449][731]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PickingUpSystem/BP_Item" FILE="../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/PickingUpSystem/BP_Item.uasset" SILENT=true
+[2023.10.17-17.46.17:458][731]LogSavePackage: Moving output files for package: /Game/PickingUpSystem/BP_Item
+[2023.10.17-17.46.17:459][731]LogSavePackage: Moving '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Saved/BP_ItemA6B6AB9B4038747439FA9082196F6F93.tmp' to '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/PickingUpSystem/BP_Item.uasset'
+[2023.10.17-17.46.17:467][731]LogFileHelpers: InternalPromptForCheckoutAndSave took 122 ms (total: 3.53 sec)
+[2023.10.17-17.46.17:469][731]AssetCheck: New page: Asset Save: BP_Item
+[2023.10.17-17.46.17:469][731]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/PickingUpSystem/BP_Item.BP_Item
+[2023.10.17-17.46.19:436][950]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.17-17.46.19:503][950]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2023.10.17-17.46.19:504][950]LogSavePackage: Moving '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Saved/BP_FirstPersonCharacter5B749190417037F04B75188263618D62.tmp' to '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2023.10.17-17.46.19:513][950]LogFileHelpers: InternalPromptForCheckoutAndSave took 76 ms (total: 3.61 sec)
+[2023.10.17-17.46.19:514][950]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2023.10.17-17.46.19:514][950]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2023.10.17-17.46.33:864][369]LogSlate: Window 'View Changes' being destroyed
+[2023.10.17-17.46.33:878][369]LogSlate: Window 'View Changes' being destroyed
+[2023.10.17-17.46.57:016][780]LogSlate: Window 'Revision Control Login' being destroyed
+[2023.10.17-17.47.58:762][595]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.17-17.47.58:770][595]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.17-17.47.58:771][595]PIE: New page: PIE session: Map_Basement (17 Oct 2023, 19:47:58)
+[2023.10.17-17.47.58:771][595]LogPlayLevel: Display: Creating online subsystem for client :Context_18
+[2023.10.17-17.47.58:773][595]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2023.10.17-17.47.58:783][596]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_Map_Basement
+[2023.10.17-17.47.58:784][596]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001703s)
+[2023.10.17-17.47.58:784][596]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/Map_Basement.Map_Basement to /Game/FirstPerson/Maps/UEDPIE_0_Map_Basement.Map_Basement (0.001737s)
+[2023.10.17-17.47.58:798][596]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.10.17-17.47.58:801][596]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.17-17.47.58:801][596]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.17-17.47.58:801][596]LogAIModule: Creating AISystem for world Map_Basement
+[2023.10.17-17.47.58:802][596]LogPlayLevel: PIE: World Init took: (0.000886s)
+[2023.10.17-17.47.58:802][596]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2023.10.17-17.47.58:802][596]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.17-17.47.58:802][596]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.17-17.47.58:802][596]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.17-17.47.58:802][596]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.17-17.47.58:802][596]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.10.17-17.47.58:802][596]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.17-17.47.58:802][596]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.10.17-17.47.58:802][596]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.17-17.47.58:802][596]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.17-17.47.58:802][596]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.17-17.47.58:802][596]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.17-17.47.58:804][596]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.17-17.47.58:845][596]LogAudioMixer: Display: Using Audio Hardware Device T24C300 (NVIDIA High Definition Audio)
+[2023.10.17-17.47.58:845][596]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.17-17.47.58:845][596]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.17-17.47.58:845][596]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.17-17.47.58:847][596]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2023.10.17-17.47.58:847][596]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2023.10.17-17.47.58:848][596]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2023.10.17-17.47.58:848][596]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2023.10.17-17.47.58:848][596]LogInit: FAudioDevice initialized with ID 7.
+[2023.10.17-17.47.58:848][596]LogAudio: Display: Audio Device (ID: 7) registered with world 'Map_Basement'.
+[2023.10.17-17.47.58:848][596]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2023.10.17-17.47.58:851][596]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.10.17-17.47.58:851][596]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_Map_Basement.Map_Basement up for play (max tick rate 0) at 2023.10.17-18.47.58
+[2023.10.17-17.47.58:851][596]LogWorld: Bringing up level for play took: 0.000535
+[2023.10.17-17.47.58:853][596]PIE: Server logged in
+[2023.10.17-17.47.58:854][596]PIE: Play in editor total start time 0.083 seconds.
+[2023.10.17-17.48.06:485][495]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.17-17.48.06:485][495]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_Map_Basement
+[2023.10.17-17.48.06:485][495]LogWorld: UWorld::CleanupWorld for Map_Basement, bSessionEnded=true, bCleanupResources=true
+[2023.10.17-17.48.06:485][495]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.17-17.48.06:489][495]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.17-17.48.06:493][495]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.17-17.48.06:504][495]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.17-17.48.06:504][495]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2023.10.17-17.48.06:504][495]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.10.17-17.48.06:506][495]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.10.17-17.48.06:512][495]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.10.17-17.48.06:583][496]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2023.10.17-17.49.25:857][444]Cmd: EDIT COPY
+[2023.10.17-17.49.26:216][480]Cmd: EDIT PASTE
+[2023.10.17-17.49.48:564][363]Cmd: DELETE
+[2023.10.17-17.49.48:564][363]Cmd: ACTOR DELETE
+[2023.10.17-17.49.48:565][363]LogEditorActor: Deleted Actor: BP_Item_C
+[2023.10.17-17.49.48:580][363]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.10.17-17.49.48:584][363]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2023.10.17-17.50.00:104][276]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.17-17.50.00:253][276]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.10.17-17.50.00:266][276]LogSavePackage: Moving output files for package: /Game/FirstPerson/Maps/Map_Basement
+[2023.10.17-17.50.00:267][276]LogSavePackage: Moving '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Saved/Map_BasementC10167B8402494288544B297B41B690F.tmp' to '../../../../../../Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/FirstPerson/Maps/Map_Basement.umap'
+[2023.10.17-17.50.00:274][276]LogFileHelpers: Saving map 'Map_Basement' took 0.057
+[2023.10.17-17.50.00:281][276]LogFileHelpers: InternalPromptForCheckoutAndSave took 176 ms (total: 3.79 sec)
+[2023.10.17-17.50.00:283][276]AssetCheck: New page: Asset Save: Map_Basement
+[2023.10.17-17.50.00:283][276]LogContentValidation: Display: Validating /Script/Engine.World /Game/FirstPerson/Maps/Map_Basement.Map_Basement

@@ -6,6 +6,16 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"D:/Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/FirstPerson/Maps/Map_Basement.umap",
+				"D:/Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/Models/Basement/Key/Key_02.uasset",
+				"D:/Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/Models/Basement/Key/Material_001.uasset",
+				"D:/Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/Models/Basement/Key/Rust.uasset",
+				"D:/Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/PickingUpSystem/BP_key.uasset",
+				"D:/Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/PickingUpSystem/BPI_PickupItems.uasset",
+				"D:/Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
+				"D:/Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/PickingUpSystem/BP_Item.uasset",
+				"D:/Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/Models/Basement/Key_02.uasset",
+				"D:/Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/Models/Basement/Material_001.uasset",
+				"D:/Unreal Projects/ScreamJam2023/SCREAMJAM2023/Content/Models/Basement/Rust.uasset",
 				"C:/Users/dawrf/Documents/GitHub/ScreamJam2023/SCREAMJAM2023/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
 			]
 		}
